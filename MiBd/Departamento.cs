@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio01.MiBd
 {
-    class Departamento
+   public class Departamento
     {
         public int id { get; set; }
         public string Nombre { get; set; }
