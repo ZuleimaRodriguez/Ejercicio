@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MiBd\demoEF.cs" />
+    <Compile Include="MiBd\Departamento.cs" />
     <Compile Include="MiBd\Empleado.cs" />
     <Compile Include="Migrations\201510281500275_Empleado.cs" />
     <Compile Include="Migrations\201510281500275_Empleado.Designer.cs">

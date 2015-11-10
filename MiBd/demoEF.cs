@@ -12,6 +12,7 @@ namespace Ejercicio01.MiBd
        public  DbSet<Empleado> Empleados { get; set; } 
         /*creacion de tabla y le estamos diciendo que se base en la clase 
         empleados despues le damos nombre */
+       public DbSet<Departamento> Departamentos { get; set; }
 
 
     }
