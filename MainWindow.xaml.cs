@@ -38,6 +38,7 @@ namespace Ejercicio01
                 Empleado emp = new Empleado();
                 emp.Nombre = txtNombre.Text;
                 emp.Sueldo = int.Parse(txtSueldo.Text);
+               
                 
                 db.Empleados.Add(emp);
                 db.SaveChanges();
@@ -140,6 +141,21 @@ namespace Ejercicio01
 
                       select s;
             dbGrid.ItemsSource = reg.ToList();
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            demoEF db = new demoEF();
+            Departamento dep = new Departamento();
+            dep.Nombre = txtDep.Text;
+            db.Departamentos.Add(dep);
+            db.SaveChanges();
+        }
+
+        private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+ 
+
         }
     }
 }

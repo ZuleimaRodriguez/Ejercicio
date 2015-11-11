@@ -21,8 +21,8 @@
         <Button Content="Consultar todo" Grid.Column="2" HorizontalAlignment="Left" Margin="442,352,-210,0" VerticalAlignment="Top" Width="161" FontSize="20" Height="44" Click="Button_Click_5"/>
         <DataGrid x:Name="dbGrid" Grid.Column="1" HorizontalAlignment="Left" Margin="86,288,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="193" Width="364"/>
         <Label Content="Departamento:" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="64,562,0,-65" VerticalAlignment="Top" Width="108" Grid.ColumnSpan="2"/>
-        <Button Content="Guardar" Grid.Column="2" HorizontalAlignment="Left" Height="22" Margin="236,562,0,-57" VerticalAlignment="Top" Width="75"/>
-        <ComboBox Grid.Column="2" HorizontalAlignment="Left" Height="19" Margin="62,565,0,-40" VerticalAlignment="Top" Width="140"/>
+        <Button Content="Agregar" Grid.Column="2" HorizontalAlignment="Left" Height="22" Margin="505,605,-177,-83" VerticalAlignment="Top" Width="75" Click="Button_Click_6"/>
+        <TextBox x:Name="txtDep" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="483,561,-200,-40" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
