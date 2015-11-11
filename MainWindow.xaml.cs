@@ -157,5 +157,14 @@ namespace Ejercicio01
  
 
         }
+
+        private void Window_Loaded_1(object sender, RoutedEventArgs e)
+        {
+            demoEF db = new demoEF();
+            cbDep.ItemsSource = db.Departamentos.ToList();
+            cbDep.DisplayMemberPath = "Nombre";
+            cbDep.SelectedValuePath = "Id";
+        }
+
     }
 }
