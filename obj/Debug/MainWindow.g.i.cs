@@ -71,6 +71,14 @@ namespace Ejercicio01 {
         #line default
         #line hidden
         
+        
+        #line 25 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox txtDep;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -170,6 +178,17 @@ namespace Ejercicio01 {
             return;
             case 9:
             this.dbGrid = ((System.Windows.Controls.DataGrid)(target));
+            return;
+            case 10:
+            
+            #line 24 "..\..\MainWindow.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_6);
+            
+            #line default
+            #line hidden
+            return;
+            case 11:
+            this.txtDep = ((System.Windows.Controls.TextBox)(target));
             return;
             }
             this._contentLoaded = true;
